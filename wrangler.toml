@@ -18,7 +18,7 @@ keep_vars = true
 # 一个 Worker 如果要访问 KV 空间，必须通过 kv_namespaces 绑定
 [[kv_namespaces]]
 binding = "DOMAIN_KV"          # Worker 内部使用的变量名称（保持英文）
-id = "9ad4156eb5ab4317be82043c7ec0b438"   # ⚠️换成你自己的 KV ID
+id = "50583565d4df402e985714f078cedff4"   # ⚠️换成你自己的 KV ID
 
 
 ###########################################
